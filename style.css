@@ -1,0 +1,33 @@
+* {
+	
+}
+
+body {
+  /*background-color: #48D1CC;*/
+  background: #48D1CC;
+  /* Old browsers*/ 
+  background: -moz-linear-gradient(45deg, #F5FFFA 0%, #48D1CC 100%);
+  /* FF3.6-15*/ 
+  background: -webkit-linear-gradient(45deg, #F5FFFA 0%, #48D1CC 100%);
+  /* Chrome10-25,Safari5.1-6*/
+  background: linear-gradient(45deg, #F5FFFA 0%, #48D1CC 100%);
+  font-family: 'Roboto Slab', serif;
+}
+
+/** Header styles **/
+
+.header {
+  background-image: url(source/banner_food.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: rgb( 51, 51, 51 );
+}
+
+h1 {
+  color: MintCream;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  line-height: 85px;
+  margin-left: 160px;
+  text-align: left;
+}
